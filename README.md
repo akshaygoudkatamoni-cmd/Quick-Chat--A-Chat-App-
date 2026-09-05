@@ -16,15 +16,15 @@
 [![JWT](https://img.shields.io/badge/Auth-JWT-FB015B?style=for-the-badge&logo=jsonwebtokens&logoColor=white)](https://jwt.io/)
 
 <p align="center">
-  <a href="#-overview">Overview</a> •
-  <a href="#-key-features">Key Features</a> •
-  <a href="#-ui-showcase">UI Showcase</a> •
-  <a href="#-system-architecture">Architecture</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-getting-started">Getting Started</a> •
-  <a href="#-api-reference">API Reference</a> •
-  <a href="#-websocket-events">WebSocket Events</a> •
-  <a href="#-project-structure">Project Structure</a>
+  <a href="#overview">Overview</a> •
+  <a href="#key-features">Key Features</a> •
+  <a href="#ui-showcase">UI Showcase</a> •
+  <a href="#architecture">Architecture</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#getting-started">Getting Started</a> •
+  <a href="#api-reference">API Reference</a> •
+  <a href="#websocket-events">WebSocket Events</a> •
+  <a href="#project-structure">Project Structure</a>
 </p>
 
 </div>
@@ -38,6 +38,7 @@
 
 ---
 
+<a id="overview"></a>
 ## 📖 Overview
 
 **QuickChat** is a production-ready, full-stack real-time messaging platform engineered to deliver private, instantaneous conversations with a fluid desktop and mobile user experience. Designed with a sleek dark-mode glassmorphic interface, QuickChat bridges responsive modern frontend design with high-performance event-driven backend communication.
@@ -46,6 +47,7 @@ Users can sign up, securely log in, customize their profile with Cloudinary-back
 
 ---
 
+<a id="milestone"></a>
 ## 💡 Developer Milestone: First WebSocket Project
 
 > [!NOTE]
@@ -60,6 +62,7 @@ Prior to this project, web development primarily centered around conventional RE
 
 ---
 
+<a id="key-features"></a>
 ## ✨ Key Features
 
 | Feature | Description |
@@ -77,6 +80,7 @@ Prior to this project, web development primarily centered around conventional RE
 
 ---
 
+<a id="ui-showcase"></a>
 ## 📸 UI Showcase
 
 Here is a visual walkthrough of the QuickChat interface and user flow:
@@ -114,6 +118,8 @@ The primary workspace combines three interconnected panels designed for optimal 
 
 ---
 
+<a id="architecture"></a>
+<a id="system-architecture"></a>
 ## 🏗️ System Architecture
 
 QuickChat utilizes a decoupled client-server architecture combining REST APIs for CRUD operations and WebSockets for low-latency event propagation:
@@ -199,6 +205,7 @@ sequenceDiagram
 
 ---
 
+<a id="tech-stack"></a>
 ## 💻 Tech Stack
 
 ### Frontend
@@ -229,6 +236,7 @@ sequenceDiagram
 
 ---
 
+<a id="database-models"></a>
 ## 🗄️ Database Models
 
 ### User Schema (`backend/models/User.js`)
@@ -255,6 +263,7 @@ sequenceDiagram
 
 ---
 
+<a id="websocket-events"></a>
 ## 🔌 WebSocket Events
 
 The real-time layer operates over Socket.IO with the following event contracts:
@@ -268,6 +277,7 @@ The real-time layer operates over Socket.IO with the following event contracts:
 
 ---
 
+<a id="api-reference"></a>
 ## 📡 API Reference
 
 Base URL: `http://localhost:5000`
@@ -303,6 +313,7 @@ Base URL: `http://localhost:5000`
 
 ---
 
+<a id="project-structure"></a>
 ## 📁 Project Structure
 
 ```text
@@ -357,6 +368,7 @@ chat-app/
 
 ---
 
+<a id="getting-started"></a>
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -456,6 +468,7 @@ npm run dev
 
 ---
 
+<a id="available-scripts"></a>
 ## 🛠️ Available Scripts
 
 ### Backend (`/backend`)
@@ -476,6 +489,7 @@ npm run lint      # Runs ESLint across the codebase
 
 ---
 
+<a id="future-roadmap"></a>
 ## 🔮 Future Roadmap
 
 - [ ] **Group Chats & Channels**: Create multi-user channels and group conversations with admin controls.
@@ -487,6 +501,7 @@ npm run lint      # Runs ESLint across the codebase
 
 ---
 
+<a id="contributing"></a>
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -499,12 +514,14 @@ Contributions, issues, and feature requests are welcome!
 
 ---
 
+<a id="license"></a>
 ## 📄 License
 
 This project is licensed under the [ISC License](LICENSE) — feel free to use it for personal, educational, or portfolio projects.
 
 ---
 
+<a id="author"></a>
 ## 👨‍💻 Author
 
 **Akshay Goud Katamoni**
