@@ -23,9 +23,9 @@
 <br />
 
 <div align="center">
-	<img src="frontend/src/assets/chat-app-assets/pic1.png" alt="QuickChat media preview" width="31%" />
-	<img src="frontend/src/assets/chat-app-assets/pic2.png" alt="QuickChat shared media preview" width="31%" />
-	<img src="frontend/src/assets/chat-app-assets/pic3.png" alt="QuickChat conversation preview" width="31%" />
+	<img src="images/signup-screen.png" alt="QuickChat signup screen" width="31%" />
+	<img src="images/profile-screen.png" alt="QuickChat profile screen" width="31%" />
+	<img src="images/chat-screen.png" alt="QuickChat real-time chat screen" width="31%" />
 </div>
 
 ## Overview
